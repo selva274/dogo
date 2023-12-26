@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Single+Day&display=swap');
+
+body{
+    background: linear-gradient(to right,rgb(246, 211, 148),rgb(252, 126, 126));
+    font-family: 'Shadows Into Light', cursive;
+   
+}
+.title{
+    display: flex;
+    justify-content: center;    
+    font-size: 30px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.content .brand{
+    width: 40px;
+    height: 77vh;
+    display: flex;
+    overflow: hidden;
+    justify-content:start;
+    align-items: end;    
+    flex-direction:column;
+
+}
+.content .brand h3{
+    color: wheat;
+    padding: 4px;
+    transform: rotate(5deg);
+    background-color:black;   
+}
+.content .card{
+    margin-top: 20px;
+    height: 75vh;
+    width: 40vw;
+    background-color: rgb(198, 245, 229);
+    overflow: scroll;
+}
+.bio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    font-size: 30px;
+}
